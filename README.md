@@ -1,5 +1,3 @@
-<div align="center">
-
 # VEIL
 
 > Concealed in plain sight.
