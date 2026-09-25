@@ -1,0 +1,6 @@
+{
+  "name": "VEIL — Encrypted Steganography Suite",
+  "description": "VEIL — Low-key hidden. High-key encrypted. Precision cryptographic steganography tool to embed and extract AES-256 encrypted files inside image carriers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
