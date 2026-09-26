@@ -324,19 +324,8 @@ export default function App() {
           />
   
           {/* Minimal Footer */}
-          <footer className="w-full border-t border-white/10 py-4 px-4 text-center text-slate-600 font-mono text-[11px] flex items-center justify-between max-w-6xl mx-auto">
-            <span>VEIL · ZERO CAP CRYPTOGRAPHIC INSTRUMENT</span>
-            <button
-              type="button"
-              onClick={() => {
-                soundEffects.playButtonClick();
-                setIsTerminalOpen(true);
-              }}
-              className="text-slate-500 hover:text-amber-400 transition-colors flex items-center gap-1 cursor-pointer"
-            >
-              <TerminalIcon className="w-3 h-3" />
-              <span>[ Ctrl + Shift + K ]</span>
-            </button>
+          <footer className="w-full border-t border-white/10 py-4 px-4 text-center text-slate-600 font-mono text-[11px]">
+            VEIL · ZERO CAP CRYPTOGRAPHIC INSTRUMENT
           </footer>
         </div>
       )}
